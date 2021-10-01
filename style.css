@@ -1,0 +1,38 @@
+/* Navigation bar section */
+
+#navbar {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+#logo {
+  flex: 3 0 0%;
+  font-size: 24px;
+}
+
+#menu {
+  display: flex;
+  flex: 1 0 0%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero section */
+#hero {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Our team section */
+#our-team {
+  display: flex;
+  flex: 1 1 0%;
+}
