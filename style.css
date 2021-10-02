@@ -1,38 +1,183 @@
+/* Global style */
+* {
+  margin: 0;
+}
+
 /* Navigation bar section */
 
-#navbar {
+.navbar {
   display: flex;
-  margin: auto;
+  flex-flow: row nowrap;
   align-items: center;
+  margin: auto;
+  padding: 20px 50px;
   background-color: #1F2937;
-  color: #F9FAF8;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 100%;
 }
 
 #logo {
-  flex: 3 0 0%;
+  flex: 2 1 0%;
   font-size: 24px;
+  color: #F9FAF8;
+  padding-left: 50px;
 }
 
 #menu {
   display: flex;
-  flex: 1 0 0%;
+  flex: 1 1 0%;
   justify-content: space-around;
+  padding-right: 50px;
 }
 
-a {
+.navbar a {
   text-decoration: none;
-  color: inherit;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 /* Hero section */
 #hero {
   display: flex;
-  justify-content: space-around;
+  flex-shrink: 1 1 0%;
+  justify-content: center;
+  background-color: #1F2937;
+  padding: 50px;
+  padding-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  gap: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
+
+
+#hero h2 {
+  font-size: 48px;
+  font-style: extra-bold;
+  color: #F9FAF8;
+  padding: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 20px;
+}
+
+#hero button {
+  margin: 20px;
+  background-color: #3882F6;
+  font-size: 18px;
+  padding: 5px 30px;
+  color: #E5E7EB;
+  border-radius: 5px;
+}
+
+#hero-img {
+  width: 100%;
+}
+
 
 
 /* Our team section */
 #our-team {
+  padding: 80px 150px 0px;
+}
+
+#our-team h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: extra-bold;
+}
+
+#all-members {
   display: flex;
   flex: 1 1 0%;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.member {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.member img {
+  width: 12em;
+  height: auto;
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+}
+
+.member h3 {
+  padding: 20px 10px;
+}
+
+/* Quote section */
+
+.quote-sec {
+  background-color: #E5E7EB;
+  padding: 50px 150px;
+}
+
+#quote {
+  font: italic normal lighter 36px Georgia, serif;
+  color: #1F2937;
+  text-align: left;
+  padding: 20px;
+}
+
+#speaker {
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Contact section */
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 50px 100px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.contact h2 {
+  font-size: 20px;
+  font-style: extra-bold;
+  color: #F9FAF8;
+}
+
+#signup-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+#signup2 {
+  background-color: #3882F6;
+  font-size: 18px;
+  padding: 5px 30px;
+  color: #F9FAF8;
+  border-radius: 5px;
+  border: 2px solid #F9FAF8;
+}
+
+
+/* Footer section */
+#footer {
+  text-align: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 20px;
 }
