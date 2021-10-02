@@ -75,6 +75,12 @@
   border-radius: 5px;
 }
 
+#hero button:hover {
+  background-color: lightblue;
+  color: #3882F6;
+  cursor: pointer;
+}
+
 #hero-img {
   width: 100%;
 }
@@ -171,6 +177,12 @@
   color: #F9FAF8;
   border-radius: 5px;
   border: 2px solid #F9FAF8;
+}
+
+#signup2:hover {
+  background-color: white;
+  color: #3882F6;
+  cursor: pointer;
 }
 
 
