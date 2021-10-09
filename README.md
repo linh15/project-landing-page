@@ -12,3 +12,7 @@ The images were either taken directly from these  or screen captured from videos
 - Marutaro "the smiley": https://www.facebook.com/photo.php?fbid=379617400194286&id=100044380875770&set=a.379617376860955&source=11
 - Archie "the poker": https://www.youtube.com/watch?v=h64oF7gmH_U&ab_channel=DeanneBourke
 - Daifuku "the bossy": https://www.facebook.com/daifuku.ch/photos/a.665843000128069/1521142821264745/?type=3
+
+
+### Live demo:
+https://linh15.github.io/project-landing-page/
