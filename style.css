@@ -1,3 +1,10 @@
+:root {
+  --blue: #5bccf6;
+  --yellow: #fcde67;
+  --black: #030e12;
+  --green: Chartreuse;
+}
+
 /* Global style */
 * {
   margin: 0;
@@ -11,7 +18,7 @@
   align-items: center;
   margin: auto;
   padding: 20px 50px;
-  background-color: #1F2937;
+  background-color: var(--blue);
   font-family: Arial, Helvetica, sans-serif;
   position: fixed;
   width: 100%;
@@ -22,9 +29,10 @@
 }
 
 #logo {
-  font-size: 24px;
-  color: #F9FAF8;
+  font-size: 30px;
+  color: white;
   padding-left: 50px;
+  font-family: 'Architects Daughter', cursive;
 }
 
 #menu {
@@ -32,11 +40,12 @@
   flex: 1 1 0%;
   justify-content: space-around;
   padding-right: 100px;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #E5E7EB;
+  color: white;
   font-size: 18px;
 }
 
@@ -45,7 +54,7 @@
   display: flex;
   flex-shrink: 1 1 0%;
   justify-content: center;
-  background-color: #1F2937;
+  background-color: DarkOrange;
   padding: 150px 150px 50px 150px;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
@@ -54,35 +63,44 @@
 
 
 #hero h2 {
-  font-size: 48px;
-  font-style: extra-bold;
-  color: #F9FAF8;
-  padding: 20px;
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  font-family: 'Rock Salt', cursive;
 }
 
 #hero p {
-  font-size: 18px;
-  color: #E5E7EB;
-  padding: 20px;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  font-family: 'Nanum Pen Script', cursive;
 }
 
 #hero button {
-  margin: 20px;
-  background-color: #3882F6;
+  margin: 30px;
+  background-color: var(--blue);
   font-size: 18px;
-  padding: 5px 30px;
-  color: #E5E7EB;
-  border-radius: 5px;
+  padding: 2px 30px;
+  color: var(--black);
+  border-radius: 8px;
+  font-family: 'Rock Salt', cursive;
 }
 
 #hero button:hover {
-  background-color: #E5E7EB;
-  color: #3882F6;
+  background-color: YellowGreen;
+  color: white;
   cursor: pointer;
+}
+
+#hero-sec-img {
+  width: 100%;
 }
 
 #hero-img {
   width: 100%;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 
 
@@ -90,20 +108,22 @@
 /* Our team section */
 #our-team {
   padding: 80px 150px 0px;
+  background-color: YellowGreen;
 }
 
 #our-team h2 {
   text-align: center;
   font-size: 36px;
-  color: #1F2937;
+  color: white;
   font-style: extra-bold;
+  font-family: 'Architects Daughter', cursive;
 }
 
 #all-members {
   display: flex;
   flex: 1 1 0%;
   flex-wrap: wrap;
-  margin: 50px;
+  padding: 50px;
   justify-content: center;
   align-items: baseline;
   gap: 10px;
@@ -114,32 +134,33 @@
   flex: 1 1 0%;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 40px;
+/*   padding-bottom: 40px; */
   text-align: center;
 }
 
 .member img {
   width: 12em;
   height: auto;
-  border: 5px solid #3882F6;
+  border: 5px solid DarkOrange;
   border-radius: 10px;
 }
 
 .member h3 {
   padding: 20px 10px;
-  color: #3882F6;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
 }
 
 /* Quote section */
 
 .quote-sec {
-  background-color: #E5E7EB;
+  background-color: var(--yellow);
   padding: 50px 150px;
 }
 
 #quote {
-  font: italic normal lighter 36px Georgia, serif;
-  color: #1F2937;
+  font: italic normal lighter 36px 'Nanum Pen Script', cursive;
+  color: var(--black);
   text-align: left;
   padding: 20px;
 }
@@ -147,6 +168,8 @@
 #speaker {
   font-weight: bold;
   text-align: right;
+  color: var(--black);
+  font-family: 'Architects Daughter', cursive;
 }
 
 /* Contact section */
@@ -154,8 +177,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3882F6;
-  margin: 50px 100px;
+  background-color: var(--blue);
+  margin: auto;
   border-radius: 5px;
   padding: 30px;
 }
@@ -163,26 +186,29 @@
 .contact h2 {
   font-size: 20px;
   font-style: extra-bold;
-  color: #F9FAF8;
+  color: white;
+  font-family: 'Rock Salt', cursive;
 }
 
 #signup-text {
   font-size: 18px;
-  color: #E5E7EB;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
 }
 
 #signup2 {
-  background-color: #3882F6;
+  background-color: YellowGreen;
   font-size: 18px;
-  padding: 5px 30px;
-  color: #F9FAF8;
+  padding: 2px 30px;
+  color: var(---black);
   border-radius: 5px;
   border: 2px solid #F9FAF8;
+  font-family: 'Rock Salt', cursive;
 }
 
 #signup2:hover {
-  background-color: #F9FAF8;
-  color: #3882F6;
+  background-color: DarkOrange;
+  color: white;
   cursor: pointer;
 }
 
@@ -190,7 +216,8 @@
 /* Footer section */
 #footer {
   text-align: center;
-  background-color: #1F2937;
-  color: #F9FAF8;
+  background-color: DarkOrange;
+  color: var(--black);
   padding: 20px;
+  font-family: 'Nanum Pen Script', cursive;
 }
